@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MainPage from './containers/MainPage';
+import App from './app';
 
 ReactDOM.render(
-  <>
-    <MainPage />
-  </>,
+    <App />,
   document.getElementById('root')
 );
 
